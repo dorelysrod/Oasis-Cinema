@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:  rgb(102, 102, 102) ;
+}
+
+.app {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%; /* Ensures the app takes up full width on smaller screens */
+}
+
+
+.product-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Default: 3 columns */
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .product-list {
+    grid-template-columns: 1fr 1fr; /* Two columns for medium screens */
+  }
+}
+
+@media (max-width: 500px) {
+  .product-list {
+    grid-template-columns: 1fr; /* One column for small screens */
+  }
+}

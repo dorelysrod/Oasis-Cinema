@@ -1,0 +1,136 @@
+.movie-details-container {
+  position: relative;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #121212;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 90px; 
+}
+
+.movie-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.trailer-container {
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+}
+
+.movie-info {
+  width: 100%;
+  max-width: 900px;
+  padding: 20px;
+  text-align: center;
+  background-color: #222;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.movie-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  margin-top: 70px;
+  text-align: center;
+}
+
+.movie-info p {
+  margin: 10px 0;
+}
+
+.movie-info strong {
+  font-weight: bold;
+  color: #ff6347;
+}
+
+.book-now-button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 20px;
+}
+
+.book-now-button:hover {
+  background-color: #e5533c;
+  transform: scale(1.05);
+}
+
+.book-now-button:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .movie-details-container {
+    padding: 15px;
+    margin-top: 100px; 
+  }
+
+  .movie-info {
+    width: 100%;
+    font-size: 1.1rem; 
+  }
+
+  .movie-title {
+    font-size: 2rem; 
+  }
+
+  .book-now-button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .trailer-container {
+    height: 40vh; /* Reduce trailer container height */
+  }
+}
+
+/* For screens smaller than 480px (Mobile Phones) */
+@media (max-width: 480px) {
+  .movie-details-container {
+    padding: 10px;
+    margin-top: 110px; /* Ensure proper spacing from navbar */
+  }
+
+  .movie-info {
+    font-size: 1rem;  /* Further reduce font size */
+  }
+
+  .movie-title {
+    font-size: 1.8rem; /* Further reduce movie title size */
+  }
+
+  .book-now-button {
+    font-size: 0.9rem;
+    padding: 7px 14px;  
+  }
+
+  .trailer-container {
+    height: 35vh;  /* Further reduce trailer container height */
+  }
+}
+
+/* Ensuring that the layout is mobile-friendly */
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /* Ensures padding/border calculations are correct */
+}
