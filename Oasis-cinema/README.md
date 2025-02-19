@@ -94,7 +94,7 @@ A quick look at the app in action:
 
 Experience Oasis Cinema live! Click the link below to explore the website:
 
-🔗 [Oasis Cinema](https://oasiscinema.netlify.app/movie/822119)
+🔗 [Oasis Cinema](https://oasiscinema.netlify.app/)
 
 
 
