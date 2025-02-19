@@ -18,8 +18,6 @@ Oasis Cinema is a user-friendly movie ticket booking platform that allows users 
 - **Explore All Movies:** A dedicated **/movies** page displays all available movies in a **grid layout**. Users can click on any movie to view details and proceed with booking via the **/moviesdetails** page.
 - **Interactive Home Page:** The homepage features a **carousel design** that allows users to swipe through movies in a visually engaging way.
 
-🔗 **Live Demo:** [Oasis Cinema](https://oasiscinema.netlify.app/movie/822119)
-
 ---
 
 ## 🔥 Current Features:
