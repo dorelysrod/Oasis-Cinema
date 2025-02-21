@@ -57,3 +57,4 @@ export const BookingProvider = ({ children }) => {
 };
 
 export default BookingContext;
+
